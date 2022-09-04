@@ -1,0 +1,244 @@
+.line-3-2022 ,.line-3-2021,.line-3-2020,.line-3-2019,.line-3-2018,.line-3-2017,.line-3-2016,.line-3-2015,.line-3-2014,.line-3-2013,.line-3-2012,.line-3-2011{
+    visibility: hidden;
+    
+}
+.hs_bar_list{
+    transition: 1s ease;
+    transform: translateY(0rem);
+}
+.line-visible{
+    width: 5rem;
+    height: 1px;
+    background-color: white;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    visibility: visible;
+}
+.line-3-brightness{
+    background-color: white;
+}
+.part-2022{
+    display: flex;
+    flex-direction: row;
+    animation: fade-in 2s;
+    transform: translateX(-50rem);
+}
+.part-2021{
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-50rem);
+    animation: fade-in 2s;
+    
+}
+@keyframes fade-in{
+    0%{opacity: 0.1;}
+    100%{opacity: 1;}
+}
+
+.bar-desc-h1{
+    margin-right: 2rem;
+}
+.switch-off{
+    display: none;
+}
+.sitch-on{
+    visibility: visible;
+}
+.bar{
+    transition: 0.4s ease-in-out;
+}
+.hs_bar_list-2021{
+    transition: 1s ease-in-out;
+    transform: translateY(-6rem);
+    }
+    .hs_bar_list-2020{
+        transition: 1s ease-in-out;
+        transform: translateY(-12rem);
+        }
+        .hs_bar_list-2019{
+            transition: 1s ease-in-out;
+            transform: translateY(-18rem);
+            }
+            .hs_bar_list-2018{transition: 1s ease-in-out;
+                transform: translateY(-25rem);
+                }
+                .hs_bar_list-2017{transition: 1s ease-in-out;
+                    transform: translateY(-31rem);
+                    }
+                    .hs_bar_list-2016{transition: 1s ease-in-out;
+                        transform: translateY(-37rem);
+                        }
+                        .hs_bar_list-2015{transition: 1s ease-in-out;
+                            transform: translateY(-43rem);
+                            }
+                            .hs_bar_list-2014{transition: 1s ease-in-out;
+                                transform: translateY(-49rem);
+                                }
+                                .hs_bar_list-2013{transition: 1s ease-in-out;
+                                    transform: translateY(-55rem);
+                                    }
+                                    .hs_bar_list-2012{transition: 1s ease-in-out;
+                                        transform: translateY(-62rem);
+                                        }
+                                        .hs_bar_list-2011{transition: 1s ease-in-out;
+                                            transform: translateY(-68rem);
+                                            }
+.line-desc{
+width: 2rem;
+margin-top: 2rem;
+height: 1px;
+background-color: white;
+transform: translate(-2.4rem,0.8rem);
+}
+@media only screen and (max-width:1025px){
+    .part-2022{
+        display: flex;
+        flex-direction: column;
+        min-height: 30rem;
+    }
+    .part-2021{
+        display: flex;
+        flex-direction: column;
+        min-height: 30rem;
+    }
+    .bar-img{
+        margin-top: -4rem;
+    }
+}
+@media only screen and (max-width:770px) {
+    .line-visible{
+        display: none;
+    }  
+    .hs_bar_list{
+    
+    } 
+    .year li:hover{
+        color: #c4c3c3 !important;
+    }
+    .oh-right{
+        transform: translateX(-1rem);
+        min-height: 50rem;
+    }
+}
+@media only screen and (max-width:426px){
+.hs_bar ul{
+    display: flex;
+    flex-direction: row;
+}
+.hs_bar ul{
+    width: 20rem;
+   
+    
+}
+.oh-right{
+    transform: translate(2rem,0rem);
+    min-height: 35rem;
+    margin-bottom: 5rem;
+    margin-top: 22rem;
+}
+.bar-img{
+    transform: translate(9.5rem,-33rem);
+}
+.bar-img img{
+    margin-top: 14rem;
+    width: 24rem;
+}
+.hs_bar{
+    
+}
+.year{
+    width: 35rem;
+}
+.year li{
+    width: 20rem;
+    
+}.hs_bar_btn svg{
+    transform: translate(-1rem,-1rem);
+}.hs_bar_btn_dwn svg{
+    transform: translate(-1rem,-0.1rem);
+}
+} 
+@media only screen and (max-width:426px){
+    .hs_bar_list-2021{
+        transition: 1s ease-in-out;
+        transform: translateX(-24rem);
+        }
+        .hs_bar_list-2020{
+            transition: 1s ease-in-out;
+            transform: translateX(-48rem);
+            }
+            .hs_bar_list-2019{
+                transition: 1s ease-in-out;
+                transform: translateX(-72rem);
+                }
+                .hs_bar_list-2018{transition: 1s ease-in-out;
+                    transform: translateX(-95.8rem);
+                    }
+                    .hs_bar_list-2017{transition: 1s ease-in-out;
+                        transform: translateX(-120rem);
+                        }
+                        .hs_bar_list-2016{transition: 1s ease-in-out;
+                            transform: translateX(-144rem);
+                            }
+                            .hs_bar_list-2015{transition: 1s ease-in-out;
+                                transform: translateX(-167rem);
+                                }
+                                .hs_bar_list-2014{transition: 1s ease-in-out;
+                                    transform: translateX(-192rem);
+                                    }
+                                    .hs_bar_list-2013{transition: 1s ease-in-out;
+                                        transform: translateX(-216rem);
+                                        }
+                                        .hs_bar_list-2012{transition: 1s ease-in-out;
+                                            transform: translateX(-239rem);
+                                            }
+                                            .hs_bar_list-2011{transition: 1s ease-in-out;
+                                                transform: translateX(-263rem);
+                                                }
+      .hs_bar_btn{
+        transform: translate(-13.5rem,5rem) rotate(-90deg);
+        margin-bottom: 0;
+      }      
+      .hs_bar_btn_dwn{
+        transform: translate(7rem,-12.6rem) rotate(-90deg);
+      }                                    
+}
+@media only screen and (max-width:376px){
+    .hs_bar_btn{
+        transform: translate(-12.5rem,6.4rem) rotate(-90deg);
+    }
+    .hs_bar_btn_dwn{
+        transform: translate(7.3rem,-11.2rem) rotate(-90deg);
+    }
+    .oh-right{
+        transform: translate(0.3rem,0rem);
+    }
+    .bar-desc-h1 p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+@media only screen and (max-width:321px){
+.hs_bar_btn{
+    transform: translate(-13rem,9rem) rotate(-90deg);
+}
+.hs_bar_btn_dwn{
+    transform: translate(4.5rem,-11rem) rotate(-90deg);
+}
+.bar-desc-h1 p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+.bar-img img{
+    width: 24rem;
+}
+.footer{
+    margin-top: 3rem;
+}
+.footer-svg svg{
+    
+    transform: scale(0.8) translate(-1.2rem,1rem);
+}
+}

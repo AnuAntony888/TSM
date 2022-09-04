@@ -1,0 +1,81 @@
+.main{
+    background-color: black;
+}
+.new-arrivals{
+    display: flex;
+    flex-direction: row;
+}
+.new-arrivals h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-left: 4rem;
+    margin-top: 7rem;
+    font-weight: 900;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.line{
+    background-color: white;
+    width: 60rem;
+    height: 0.01rem;
+    margin-top: 9.5rem;
+    margin-left: 2rem;
+}
+.shop-all p{
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: end;
+    margin-right: 3rem;
+}
+.corousal{
+    overflow-x:scroll;
+}
+.video-corousal{
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll ;
+}
+.video-1 video{
+    width: 37rem;
+    height: 34rem;
+    object-fit: cover;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+.img-2 img{
+    margin-top: 4rem;
+    width: 22rem;
+    
+    object-fit: cover;
+    margin-left: 1.6rem;
+    height: 34rem;
+
+}
+.btn-rl{
+    display: flex;
+    flex-direction: row;
+}
+.btn-left{
+margin-left: 4rem;
+margin-right: 1rem;
+}
+.our-history {
+    display: flex;
+    flex-direction: row;
+}
+.our-history p{
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-left: 4rem;
+
+}
+.line-2{
+    background-color: white;
+    width: 60rem;
+    height: 0.01rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}

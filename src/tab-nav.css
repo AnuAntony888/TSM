@@ -1,0 +1,89 @@
+@font-face {
+        font-family: 'pilated';
+        src: url(./PilatExtended-Black.ttf);
+}
+@font-face {
+    font-family: 'pilated-thin';
+    src: url(./PilatExtended-Thin.ttf);
+}
+@font-face {
+    font-family: 'pilated-demibold';
+    src: url(./PilatExtended-DemiBold.ttf);
+}
+@font-face {
+    font-family: 'pilated-strong';
+    src: url(./PilatExtended-Heavy.ttf);
+}
+@font-face {
+    font-family: 'footer-tab';
+    src: url(./PilatExtended-Light.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(./PilatExtended-Bold.ttf);
+}
+
+.nav-main p{
+    
+    height: 6.4rem;
+    
+    background-color: black;
+color: white;
+overflow: visible;
+border-top: 1px solid grey;
+font-weight: 900;
+font-size: 38px;
+line-height: 34px;
+font-family: 'pilated';
+display: flex;
+align-items: center;
+padding-left: 1rem;
+
+}
+.nav-shop-btn{
+    height: 6.4rem;
+    display: flex;
+    align-items:center ;
+    padding-left: 1rem;
+}
+.nav-shop-btn p{
+    background-color: white;
+    width: 14.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+    font-family: 'pilated-demibold';
+    border-bottom: 1px solid grey;
+}
+.main-part ul li{
+    border-bottom: 1px solid grey;
+}
+.main-part{
+    width: 100vw;
+    height: 130vh;
+    background-color: black;
+    overflow: visible;
+    transform: translateY(-0.4rem);
+    
+}
+@media only screen and (max-width:770px){
+    .main-part{
+        margin-top: ;
+    }
+}
+@media only screen and (max-width:321px){
+    .nav-main p{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width:376px){
+    .nav-main p{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
